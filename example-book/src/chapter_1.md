@@ -53,16 +53,16 @@ If you configure it as `"^^^"` prefix, then:
 
 ````none
 ```typ,hidelines=^^^
-Assume that `#add(x, y)` is defined.
+Assume that ```typ #add(x, y)``` is defined.
 ^^^#let add(x, y) = x + y;
-Then `#add(2, 3)` will be #add(2, 3).
+Then ```typ #add(2, 3)``` will be #add(2, 3).
 ```
 ````
 
 will result in:
 
 ```typ,hidelines=^^^
-Assume that `#add(x, y)` is defined.
+Assume that ```typ #add(x, y)``` is defined.
 ^^^#let add(x, y) = x + y;
-Then `#add(2, 3)` will be #add(2, 3).
+Then ```typ #add(2, 3)``` will be #add(2, 3).
 ```
